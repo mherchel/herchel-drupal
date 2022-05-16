@@ -1,0 +1,5 @@
+name: Don't Subtheme Olivero
+type: theme
+description: This is a subtheme of Olivero
+core_version_requirement: ^8 || ^9 || ^10
+base theme: olivero

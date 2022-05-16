@@ -1,0 +1,6 @@
+prism:
+  css:
+    theme:
+      prism/prism.css: {}
+  js:
+   prism/prism.js: {}
