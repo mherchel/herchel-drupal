@@ -1,0 +1,25 @@
+uuid: 094c690c-43eb-4490-a8e5-b8054e5b6825
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - dont_subtheme_olivero
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: dont_subtheme_olivero_site_branding
+theme: dont_subtheme_olivero
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

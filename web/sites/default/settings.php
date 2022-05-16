@@ -751,8 +751,8 @@ $settings['entity_update_backup'] = TRUE;
  * node migrations.
  */
 $settings['migrate_node_migrate_type_classic'] = FALSE;
-
 $settings['config_exclude_modules'] = ['devel', 'stage_file_proxy'];
+$settings['config_sync_directory'] = '../config/sync';
 
 $databases['default']['default'] = array (
   'database' => getenv('MYSQL_DATABASE'),
