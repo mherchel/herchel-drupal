@@ -1,6 +1,15 @@
+global:
+  css:
+    theme:
+      css/global.css: {}
+
 prism:
   css:
     theme:
       prism/prism.css: {}
   js:
    prism/prism.js: {}
+
+twitter-embed:
+  js:
+    https://platform.twitter.com/widgets.js: { type: external, minified: true }

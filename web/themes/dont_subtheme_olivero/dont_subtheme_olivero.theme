@@ -3,5 +3,6 @@
 function dont_subtheme_olivero_preprocess_node(&$variables) {
   if ($variables['node']->bundle() === 'article' && $variables['view_mode'] === 'full') {
     $variables['#attached']['library'][] = 'dont_subtheme_olivero/prism';
+    $variables['#attached']['library'][] = 'dont_subtheme_olivero/twitter-embed';
   }
 }
