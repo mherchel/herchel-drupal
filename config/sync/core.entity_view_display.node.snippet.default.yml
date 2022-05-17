@@ -1,0 +1,34 @@
+uuid: 8b210cae-4ef2-48b2-b5f4-b898c37b67cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.snippet.body
+    - field.field.node.snippet.field_code
+    - field.field.node.snippet.field_language
+    - node.type.snippet
+  module:
+    - text
+    - user
+id: node.snippet.default
+targetEntityType: node
+bundle: snippet
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_code:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  field_language: true
+  links: true

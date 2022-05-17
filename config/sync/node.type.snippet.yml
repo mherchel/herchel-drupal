@@ -1,0 +1,17 @@
+uuid: 486f06fe-0a98-457f-addc-e48d73e62d7c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Snippet
+type: snippet
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

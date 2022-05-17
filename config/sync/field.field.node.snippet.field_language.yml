@@ -1,0 +1,29 @@
+uuid: 3270a42b-a3c8-4c56-b4a3-082203827398
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_language
+    - node.type.snippet
+    - taxonomy.vocabulary.snippet_
+id: node.snippet.field_language
+field_name: field_language
+entity_type: node
+bundle: snippet
+label: Language
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      snippet_: snippet_
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

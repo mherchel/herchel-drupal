@@ -5,4 +5,25 @@ function dont_subtheme_olivero_preprocess_node(&$variables) {
     $variables['#attached']['library'][] = 'dont_subtheme_olivero/prism';
     $variables['#attached']['library'][] = 'dont_subtheme_olivero/twitter-embed';
   }
+  if ($variables['node']->bundle() === 'snippet' && $variables['view_mode'] === 'full') {
+    $variables['#attached']['library'][] = 'dont_subtheme_olivero/prism';
+  }
+}
+
+/**
+ * Implements hook_theme_suggestions_HOOK_alter().
+ */
+function dont_subtheme_olivero_theme_suggestions_field_alter(&$suggestions, $variables) {
+  $element = $variables['element'];
+  $field_name = $element['#field_name'];
+
+  $bare_fields = [
+    'field_code',
+  ];
+
+  if (in_array($field_name, $bare_fields)) {
+    $suggestions[] = 'field__bare';
+  }
+
+  $suggestions[] = 'field__' . $element['#entity_type'] . '__' . $element['#field_name'] . '__' . $element['#bundle'] . '__' . $element['#view_mode'];
 }
