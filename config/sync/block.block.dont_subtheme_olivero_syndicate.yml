@@ -10,8 +10,8 @@ _core:
   default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
 id: dont_subtheme_olivero_syndicate
 theme: dont_subtheme_olivero
-region: sidebar_first
-weight: 0
+region: social
+weight: -7
 provider: null
 plugin: node_syndicate_block
 settings:

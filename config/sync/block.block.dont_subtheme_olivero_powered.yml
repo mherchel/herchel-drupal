@@ -10,8 +10,8 @@ _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
 id: dont_subtheme_olivero_powered
 theme: dont_subtheme_olivero
-region: sidebar_first
-weight: 0
+region: footer_bottom
+weight: -7
 provider: null
 plugin: system_powered_by_block
 settings:

@@ -8,8 +8,8 @@ _core:
   default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
 id: dont_subtheme_olivero_page_title
 theme: dont_subtheme_olivero
-region: sidebar_first
-weight: -5
+region: content_above
+weight: -7
 provider: null
 plugin: page_title_block
 settings:

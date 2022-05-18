@@ -1,6 +1,6 @@
 uuid: 23f18229-f3d5-4b3a-95d2-cb55ff7feca2
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - help
@@ -10,8 +10,8 @@ _core:
   default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
 id: dont_subtheme_olivero_help
 theme: dont_subtheme_olivero
-region: sidebar_first
-weight: 0
+region: header
+weight: -8
 provider: null
 plugin: help_block
 settings:
