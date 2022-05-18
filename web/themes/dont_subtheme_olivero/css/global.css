@@ -15,3 +15,9 @@ iframe[src*="youtube"] {
 .snippet__code {
   margin-top: 0.5rem !important;
 }
+
+/* Override prismJS default background color to match Olivero. */
+:not(pre)>code[class*=language-],
+pre[class*=language-] {
+ background: #f7f9fa !important;
+}
