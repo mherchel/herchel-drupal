@@ -1,0 +1,17 @@
+uuid: 3be5e9ea-002f-418a-a062-b8e83bf4c1e6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Event
+type: event
+description: 'Speaking event'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
