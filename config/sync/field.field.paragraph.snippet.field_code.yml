@@ -6,7 +6,12 @@ dependencies:
     - field.storage.paragraph.field_code
     - paragraphs.paragraphs_type.snippet
   module:
+    - allowed_formats
     - text
+third_party_settings:
+  allowed_formats:
+    allowed_formats:
+      - raw
 id: paragraph.snippet.field_code
 field_name: field_code
 entity_type: paragraph
