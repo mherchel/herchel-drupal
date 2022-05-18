@@ -4,10 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.snippet.body
-    - field.field.node.snippet.field_code
-    - field.field.node.snippet.field_language
+    - field.field.node.snippet.field_code_snippet
     - node.type.snippet
   module:
+    - entity_reference_revisions
     - text
     - user
 id: node.snippet.default
@@ -22,13 +22,14 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
-  field_code:
-    type: text_default
+  field_code_snippet:
+    type: entity_reference_revisions_entity_view
     label: hidden
-    settings: {  }
+    settings:
+      view_mode: default
+      link: ''
     third_party_settings: {  }
     weight: 1
     region: content
 hidden:
-  field_language: true
   links: true

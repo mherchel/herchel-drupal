@@ -3,3 +3,15 @@ iframe[src*="youtube"] {
   height: auto;
   aspect-ratio: 16 / 9;
 }
+
+/* Snippet stuff */
+.snippet__filename {
+  margin-top: 3.375rem !important;
+  margin-bottom: 0 !important;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.snippet__code {
+  margin-top: 0.5rem !important;
+}

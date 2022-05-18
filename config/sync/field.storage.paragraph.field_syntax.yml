@@ -1,13 +1,13 @@
-uuid: 3abeb0a0-4637-4c2f-b369-c090aac1ac8d
+uuid: 1a5bf4d9-b133-4b9b-8928-864a7828da69
 langcode: en
 status: true
 dependencies:
   module:
-    - node
+    - paragraphs
     - taxonomy
-id: node.field_language
-field_name: field_language
-entity_type: node
+id: paragraph.field_syntax
+field_name: field_syntax
+entity_type: paragraph
 type: entity_reference
 settings:
   target_type: taxonomy_term

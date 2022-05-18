@@ -5,8 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.snippet.body
-    - field.field.node.snippet.field_code
-    - field.field.node.snippet.field_language
+    - field.field.node.snippet.field_code_snippet
     - node.type.snippet
   module:
     - text
@@ -30,5 +29,4 @@ content:
     weight: 100
     region: content
 hidden:
-  field_code: true
-  field_language: true
+  field_code_snippet: true

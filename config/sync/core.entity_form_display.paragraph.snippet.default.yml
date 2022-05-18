@@ -1,0 +1,50 @@
+uuid: 5f7aaca3-6527-4577-8ec6-4e34745c3cdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.snippet.field_code
+    - field.field.paragraph.snippet.field_filename
+    - field.field.paragraph.snippet.field_note
+    - field.field.paragraph.snippet.field_syntax
+    - paragraphs.paragraphs_type.snippet
+  module:
+    - text
+id: paragraph.snippet.default
+targetEntityType: paragraph
+bundle: snippet
+mode: default
+content:
+  field_code:
+    type: text_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_filename:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_note:
+    type: text_textarea
+    weight: 0
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_syntax:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

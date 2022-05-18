@@ -1,0 +1,41 @@
+uuid: 5c526f18-919a-4b57-b8c7-28d4a657a2f0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.snippet.field_code
+    - field.field.paragraph.snippet.field_filename
+    - field.field.paragraph.snippet.field_note
+    - field.field.paragraph.snippet.field_syntax
+    - paragraphs.paragraphs_type.snippet
+  module:
+    - text
+id: paragraph.snippet.default
+targetEntityType: paragraph
+bundle: snippet
+mode: default
+content:
+  field_code:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_filename:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_note:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_syntax: true

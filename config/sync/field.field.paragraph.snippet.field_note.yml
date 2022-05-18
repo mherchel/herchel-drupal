@@ -1,0 +1,21 @@
+uuid: e9c8d440-a664-4ab3-8b63-6658cd225821
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_note
+    - paragraphs.paragraphs_type.snippet
+  module:
+    - text
+id: paragraph.snippet.field_note
+field_name: field_note
+entity_type: paragraph
+bundle: snippet
+label: Note
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

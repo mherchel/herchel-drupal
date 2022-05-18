@@ -1,0 +1,19 @@
+uuid: 870b0d60-9cc3-4966-8abc-455d2b8fbda6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_filename
+    - paragraphs.paragraphs_type.snippet
+id: paragraph.snippet.field_filename
+field_name: field_filename
+entity_type: paragraph
+bundle: snippet
+label: Filename
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

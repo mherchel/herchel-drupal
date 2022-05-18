@@ -1,15 +1,15 @@
-uuid: b290923e-f4de-43b6-8d9e-6ebc824d60c7
+uuid: 19800fa6-a9c2-41d1-861c-c97413d201f4
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_code
-    - node.type.snippet
+    - field.storage.paragraph.field_code
+    - paragraphs.paragraphs_type.snippet
   module:
     - text
-id: node.snippet.field_code
+id: paragraph.snippet.field_code
 field_name: field_code
-entity_type: node
+entity_type: paragraph
 bundle: snippet
 label: Code
 description: ''

@@ -1,18 +1,18 @@
-uuid: 3270a42b-a3c8-4c56-b4a3-082203827398
+uuid: e8185a51-e154-4688-8511-d4282765855d
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_language
-    - node.type.snippet
+    - field.storage.paragraph.field_syntax
+    - paragraphs.paragraphs_type.snippet
     - taxonomy.vocabulary.snippet_
-id: node.snippet.field_language
-field_name: field_language
-entity_type: node
+id: paragraph.snippet.field_syntax
+field_name: field_syntax
+entity_type: paragraph
 bundle: snippet
-label: Language
+label: Syntax
 description: ''
-required: true
+required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
