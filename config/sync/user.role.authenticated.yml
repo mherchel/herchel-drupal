@@ -2,8 +2,12 @@ uuid: d143eefa-b457-4eb0-b58d-fa13d8c07068
 langcode: en
 status: true
 dependencies:
+  config:
+    - filter.format.markdown
   module:
+    - comment
     - contact
+    - filter
     - media
     - search
     - system
@@ -16,5 +20,7 @@ is_admin: false
 permissions:
   - 'access content'
   - 'access site-wide contact form'
+  - 'post comments'
   - 'search content'
+  - 'use text format markdown'
   - 'view media'
