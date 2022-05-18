@@ -22,6 +22,7 @@
         "drupal/devel": "^4.1",
         "drupal/markdown": "^3.0@RC",
         "drupal/metatag": "^1.19",
+        "drupal/paragraphs": "^1.14",
         "drupal/pathauto": "^1.10",
         "drush/drush": "^11.0",
         "kint-php/kint": "^4.1",
